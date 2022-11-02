@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: amazonFont;
+    src: url(../fonts/AmazonEmberDisplay_Lt.ttf);
+}
+@font-face {
+    font-family: amazonBold;
+    src: url(../fonts/AmazonEmberDisplay_Bd.ttf);
+}
+
+/* Center all non flex items */
+body {
+    text-align: center;
+}
+
+a {
+    font-family: amazonFont;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: blue;
+}
+
+#logo {
+    margin-top: 100px;
+}
+
+/* Flex box */
+.container {
+    font-family: amazonFont;
+    display: flex;
+    justify-content: left;
+    flex-flow: wrap;
+    font-family: amazonFont;
+    max-width: 20%;
+    margin: 10px auto;
+    padding: 16px;
+    border-radius: 3px;
+    border-width: thin;
+    border: 1px solid lightgray;
+    margin-top: 5%;
+}
+
+.container > span {
+    text-align: left;
+    width: 100%;
+    font-family: amazonBold;
+    font-size: 20px;
+}
+
+#forgotpass {
+    text-align: right;
+    margin-left: 50%;
+}
+
+.container input[type="password"], .container input[type="email"] {
+    border-radius: 0.3em;
+    border-width: thin;
+    border-color: 3px solid #808080;
+    width: 100%;
+    height: 30px;
+    padding: 3px 1px 2px 3px;
+    margin: 15px 0;
+}
+
+#submitbttn {
+    width: 100%;
+    margin: 7px 0;
+    background-color: #F7C548;
+    border-radius: 2px;
+    border-width: thin;
+    border: 1px solid gray;
+    height: 30px;
+}
+
+#needhelp {
+    margin: 15px 0;
+    margin-left: 8%;
+}
+
+fieldset {
+    padding: 0;
+    display: inline;
+    max-width: 22%; 
+    margin-left: 39%;
+}
+
+fieldset.title {
+    border-top: 1px solid #aaa;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    display: block;
+    text-align: center;
+}
+
+fieldset.title legend {
+    font-family: amazonFont;
+    padding: 8px 5px;
+    color: gray;
+}
+
+.create {
+    width: 22%;
+    background-color: #E7E9EC;
+    border-radius: 2px;
+    border-width: thin;
+    border: 1px solid gray;
+    height: 30px;
+}
+
+hr {
+    margin: 60px 0;
+}
+
+
+.footer {
+    margin: 0.5%;
+}
+
+.ccfooter {
+    font-family: amazonFont;
+}
