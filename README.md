@@ -1,5 +1,5 @@
 # Amazon-login-mockup
-A simple mockup of the Amazon login page
+A simple mockup of the Amazon login page  
 This page is in no way responsive, this if my first time working with flexboxes
 
 View a little preview below
